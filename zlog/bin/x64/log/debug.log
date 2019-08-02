@@ -1,0 +1,508 @@
+07-24 12:33:12 DEBUG (14084:src\zlog.c:120) ------zlog_init start------
+07-24 12:33:12 DEBUG (14084:src\zlog.c:122) ------compile time[Jul 19 2019 11:54:24], git version[4e0a06c5]------
+07-24 12:33:12 DEBUG (14084:src\rotater.c:158) opened
+07-24 12:33:12 DEBUG (14084:src\rule.c:714) no format specified, use default
+07-24 12:33:12 DEBUG (14084:src\conf.c:66) -conf[0000000001529760]-
+07-24 12:33:12 DEBUG (14084:src\conf.c:67) --global--
+07-24 12:33:12 DEBUG (14084:src\conf.c:68) ---file[C:\Users\ls\Desktop\WinZlog-master\zlog\test\test_hello.conf],mtime[2019-07-15 16:17:57]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:69) ---strict init[1]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:70) ---buffer min[1024]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:71) ---buffer max[2097152]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:73) ---default_format---
+07-24 12:33:12 DEBUG (14084:src\format.c:42) ---format[0000000001892B90][default = %D %V [%p:%F:%L] %m%n(0000000001526D70)]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:76) ---file perms[0600]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:77) ---reload conf period[0]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:78) ---fsync period[0]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:80) ---rotate lock file[C:\Users\ls\Desktop\WinZlog-master\zlog\test\test_hello.conf]---
+07-24 12:33:12 DEBUG (14084:src\rotater.c:72) --rotater[0000000001892730][0000000001892730,C:\Users\ls\Desktop\WinZlog-master\zlog\test\test_hello.conf,248][(null),(null),,0,0,0,0,0]--
+07-24 12:33:12 DEBUG (14084:src\level_list.c:37) --level_list[0000000001526B50]--
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[000000000152BD00][0,*,*,1,6]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[000000000152C520][20,DEBUG,debug,5,7]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[000000000152CD40][40,INFO,info,4,6]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[000000000152D770][60,NOTICE,notice,6,5]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[000000000152DF90][80,WARN,warn,4,4]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[0000000001870080][100,ERROR,error,5,3]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[00000000018708A0][120,FATAL,fatal,5,1]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[00000000018710C0][254,UNKNOWN,unknown,7,3]---
+07-24 12:33:12 DEBUG (14084:src\level.c:38) ---level[00000000018718E0][255,!,!,1,6]---
+07-24 12:33:12 DEBUG (14084:src\conf.c:86) --format list[0000000001526DB0]--
+07-24 12:33:13 DEBUG (14084:src\format.c:42) ---format[0000000001873110][simple = %D.%ms %m%n(0000000001526B70)]---
+07-24 12:33:13 DEBUG (14084:src\format.c:42) ---format[0000000001882C20][simple2 = %D.%us %m%n(0000000001526B10)]---
+07-24 12:33:13 DEBUG (14084:src\conf.c:93) --rule_list[0000000001526BD0]--
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C0260][my_cat*0]-[384,0][,0000000000000000,0:0*0~][0][0][::0000000000000000];[0000000001892B90]---
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C2310][my_cat*0]-[384,0][C:\\Users\\ls\\Desktop\\WinZlog-master\\zlog\\test\\log.log,0000000000000000,256:0*0~][0][0][::0000000000000000];[0000000001873110]---
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C43C0][my_cat*0]-[384,0][,0000000000000000,0:0*0~][0][0][::0000000000000000];[0000000001882C20]---
+07-24 12:33:13 DEBUG (14084:src\category_table.c:33) -category_table[00000000015293E0]-
+07-24 12:33:13 DEBUG (14084:src\thread_list.c:32) --thread_list[0000000001526CD0]--
+07-24 12:33:13 DEBUG (14084:src\record_table.c:33) -record_table[0000000001529560]-
+07-24 12:33:13 DEBUG (14084:src\zlog.c:149) ------zlog_init success end------
+07-24 12:33:13 DEBUG (14084:src\zlog.c:356) ------zlog_get_category[my_cat] start------
+07-24 12:33:13 DEBUG (14084:src\category.c:37) --category[00000000018C9610][my_cat][0000000001526D30]--
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C0260][my_cat*0]-[384,0][,0000000000000000,0:0*0~][0][0][::0000000000000000];[0000000001892B90]---
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C2310][my_cat*0]-[384,0][C:\\Users\\ls\\Desktop\\WinZlog-master\\zlog\\test\\log.log,0000000000000000,256:0*0~][0][0][::0000000000000000];[0000000001873110]---
+07-24 12:33:13 DEBUG (14084:src\rule.c:104) ---rule:[00000000018C43C0][my_cat*0]-[384,0][,0000000000000000,0:0*0~][0][0][::0000000000000000];[0000000001882C20]---
+07-24 12:33:13 DEBUG (14084:src\zlog.c:378) ------zlog_get_category[my_cat] success, end------ 
+07-24 12:33:13 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:13 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:13 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:13 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:16 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:16 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:16 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:16 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:19 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:19 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:19 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:19 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:22 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:22 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:22 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:22 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:25 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:25 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:25 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:25 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:28 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:28 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:28 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:28 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:31 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:31 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:31 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:31 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:34 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:34 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:34 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:34 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:37 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:37 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:37 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:37 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:40 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:40 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:40 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:40 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:43 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:43 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:43 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:43 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:46 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:46 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:46 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:46 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:49 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:49 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:49 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:49 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:52 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:52 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:52 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:52 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:55 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:55 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:55 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:55 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:33:58 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:33:58 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:33:58 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:33:58 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:01 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:01 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:01 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:01 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:04 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:04 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:04 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:04 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:07 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:07 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:07 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:07 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:10 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:10 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:10 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:10 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:13 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:13 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:13 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:13 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:16 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:16 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:16 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:16 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:19 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:19 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:19 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:19 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:22 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:22 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:22 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:22 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:25 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:25 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:25 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:25 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:28 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:28 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:28 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:28 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:31 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:31 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:31 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:31 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:34 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:34 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:34 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:34 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:37 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:37 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:37 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:37 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:40 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:40 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:40 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:40 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:43 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:43 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:43 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:43 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:46 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:46 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:46 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:46 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:49 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:49 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:50 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:50 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:53 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:53 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:53 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:53 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:56 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:56 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:56 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:56 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:34:59 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:34:59 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:34:59 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:34:59 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:02 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:02 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:02 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:02 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:05 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:05 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:05 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:05 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:08 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:08 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:08 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:08 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:11 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:11 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:11 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:11 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:14 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:14 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:14 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:14 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:17 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:17 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:17 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:17 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:20 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:20 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:20 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:20 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:23 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:23 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:23 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:23 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:26 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:26 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:26 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:26 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:29 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:29 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:29 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:29 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:32 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:32 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:32 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:32 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:35 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:35 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:35 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:35 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:38 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:38 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:38 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:38 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:41 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:41 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:41 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:41 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:44 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:44 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:44 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:44 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:47 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:47 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:47 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:47 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:50 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:50 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:50 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:50 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:53 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:53 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:53 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:53 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:56 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:56 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:56 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:56 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:35:59 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:35:59 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:35:59 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:35:59 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:02 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:02 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:02 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:02 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:05 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:05 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:05 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:05 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:08 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:08 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:08 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:08 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:11 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:11 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:11 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:11 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:14 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:14 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:14 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:14 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:17 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:17 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:17 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:17 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:20 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:20 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:20 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:20 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:23 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:23 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:23 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:23 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:26 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:26 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:26 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:26 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:29 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:29 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:29 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:29 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:32 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:32 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:33 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:33 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:36 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:36 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:36 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:36 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:39 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:39 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:39 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:39 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:42 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:42 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:42 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:42 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:45 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:45 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:45 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:45 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:48 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:48 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:48 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:48 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:51 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:51 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:51 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:51 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:54 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:54 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:54 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:54 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:36:57 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:36:57 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:36:57 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:36:57 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:00 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:00 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:00 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:00 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:03 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:03 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:03 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:03 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:06 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:06 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:06 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:06 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:09 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:09 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:09 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:09 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:12 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:12 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:12 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:12 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:15 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:15 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:15 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:15 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:18 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:18 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:18 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:18 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:21 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:21 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:21 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:21 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:24 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:24 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:24 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:24 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:27 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:27 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:27 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:27 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:30 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:30 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:30 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:30 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:33 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:33 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:33 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:33 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:36 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:36 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:36 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:36 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:39 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:39 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:39 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:39 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:42 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:42 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:42 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:42 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:45 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:45 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:45 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:45 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:48 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:48 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:48 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:48 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:51 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:51 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:51 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:51 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:54 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:54 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:54 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:54 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:37:57 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:37:57 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:37:57 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:37:57 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:00 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:00 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:00 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:00 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:03 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:03 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:03 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:03 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:07 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:07 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:07 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:07 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:10 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:10 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:10 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:10 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:13 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:13 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:13 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:13 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:16 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:16 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:16 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:16 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:19 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:19 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:19 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:19 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:22 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:22 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:22 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:22 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:25 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:25 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:25 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:25 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:28 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:28 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:28 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:28 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:31 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:31 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:31 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:31 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:34 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:34 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:34 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:34 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:37 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:37 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:37 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:37 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:40 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:40 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:40 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:40 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:43 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:43 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:43 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:43 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:46 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:46 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:46 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:46 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:49 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:49 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:49 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:49 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:52 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:52 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:52 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:52 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:55 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:55 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:55 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:55 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:38:58 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:38:58 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:38:58 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:38:58 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
+07-24 12:39:01 DEBUG (14084:src\zlog.c:882) ------zlog------
+07-24 12:39:01 DEBUG (14084:src\zlog.c:885) ------zlog--[40]----
+07-24 12:39:01 DEBUG (14084:src\zlog.c:920) ------zlog--[920]----
+07-24 12:39:01 DEBUG (14084:src\zlog.c:921) category->name:my_cat category->name_len:6
