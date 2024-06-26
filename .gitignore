@@ -1,4 +1,3 @@
-libEncrypt.dll
 *.obj
 *.user
 *.manifest
@@ -15,17 +14,9 @@ libEncrypt.dll
 *.suo
 common/lib/*
 debug_symbols/*
-import/libEncrypt/*.lib
-installation/*.dll
-installation/*/*/*.dll
-modules/*/*/*/*.pdb
-output/export/bin/*.dll
-output/export/lib/*.lib
 Debug/
 x64/
-.vs/
-modules/BOT-Server/x64/Release/libEncrypt.dll
-modules/BOT-Server/x64/Release/*.lib
-modules/BOT-Server/BOT-Server-Lite.ncb
-modules/BOT-Server/BOT-Server-Lite.suo
-asdasdasdas
+zlog/.vs/*
+zlog/zlog/x64/Release/*.log
+zlog/bin/x64/zlog.dll
+Release/bin/x64/zlog.dll
