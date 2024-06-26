@@ -1,4 +1,152 @@
-﻿     正在建立程式庫 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.lib 和物件 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.exp
+﻿  buf.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(125,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(187,31): warning C4244: '=': 將 'double' 轉換為 'size_t'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(614,17): warning C4018: '>': signed/unsigned 不相符
+  category.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\category.c(143,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  category_table.c
+  conf.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(39,9): warning C4005: 'snprintf': 巨集重複定義
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(144,57): warning C4047: '函式': 'const size_t' 與 'char [3]' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(144,57): warning C4024: '_snprintf_s': 型式和實質參數 3 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(147,57): warning C4047: '函式': 'const size_t' 與 'char [3]' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(147,57): warning C4024: '_snprintf_s': 型式和實質參數 3 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(164,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(166,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(168,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(146,13): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(147,63): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(273,26): warning C4133: '函式': 不相容的類型 - 從 'stat *' 至 '_stat64i32 *'
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(281,2): warning C4013: 'localtime_r' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(293,43): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(284,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(451,8): warning C4013: 'strcasecmp' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(466,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(468,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(472,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(380,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(436,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(445,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(451,40): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\conf.c(461,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  event.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\event.c(38,10): warning C4311: '類型轉換': 指標值由 'void *' 指派至 'long' 時會遭截斷
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\event.c(102,25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\event.c(103,29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  format.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\format.c(87,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  level.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\level.c(58,6): warning C4013: 'strcasecmp' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\level.c(94,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  level_list.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\level_list.c(148,18): warning C4013: 'strcasecmp' 未定義; 假設 extern 傳回整數
+  mdc.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\mdc.c(69,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\mdc.c(70,24): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  record.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\record.c(56,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  record_table.c
+  release.c
+  rotater.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(57,2): warning C4098: 'zlog_rotater_profile': 'void' 函式正在傳回值
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(91,28): warning C4022: 'CloseHandle': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(155,5): warning C4047: '=': 'int' 與 'HANDLE' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(216,11): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(222,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(311,9): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(334,11): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(370,9): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(381,12): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(399,11): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(427,12): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(447,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(467,12): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(557,25): warning C4022: 'LockFile': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(598,33): warning C4022: 'UnlockFile': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(654,6): warning C4013: 'zlogclose' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rotater.c(659,20): warning C4013: 'zlogopen' 未定義; 假設 extern 傳回整數
+  rule.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(54,3): warning C4047: 'return': 'int' 與 'HANDLE' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(60,22): warning C4022: 'WriteFile': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(65,18): warning C4022: 'CloseHandle': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(125,4): warning C4244: '函式': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(133,7): warning C4013: 'fsync' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(173,68): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(180,30): warning C4022: 'FlushFileBuffers': 指標與實質參數 1 不相符
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(252,53): warning C4244: '函式': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(293,53): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(345,4): warning C4244: '函式': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(449,19): warning C4047: '函式': 'int' 與 'HANDLE' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(449,19): warning C4024: 'zlogwrite': 型式和實質參數 1 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(450,36): warning C4244: '函式': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(474,16): warning C4047: '函式': 'int' 與 'HANDLE' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(474,16): warning C4024: 'zlogwrite': 型式和實質參數 1 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(475,36): warning C4244: '函式': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(490,6): warning C4013: 'strcasecmp' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(650,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(788,32): warning C4267: '=': 將 'size_t' 轉換為 'long'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(618,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(632,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(708,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(742,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(785,12): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\rule.c(868,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  spec.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(95,2): warning C4013: 'gettimeofday' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(95,2): warning C4013: 'localtime_r' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(218,26): warning C4013: 'getpid' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(224,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(455,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(457,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(520,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(525,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(541,20): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(561,20): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(569,20): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(575,20): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(581,33): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(638,32): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(640,18): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(499,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(529,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\spec.c(547,12): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  syslog-client.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(88,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(95,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(104,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(111,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(114,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(135,11): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(187,45): warning C4047: '函式': 'const size_t' 與 'char [6]' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(187,45): warning C4024: '_snprintf_s': 型式和實質參數 3 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(187,54): warning C4047: '函式': 'const char *const ' 與 'DWORD' 間接取值的層級不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(187,54): warning C4024: '_snprintf_s': 型式和實質參數 4 不同的類型
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(194,27): warning C4133: '函式': 不相容的類型 - 從 'char [16]' 至 'LPWSTR'
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(230,17): warning C4113: 'void (__cdecl *)()' 與來自 'void (__cdecl *)(void)' 的參數清單不同
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(310,30): warning C4267: '函式': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\syslog-client.c(298,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  thread.c
+  thread_list.c
+  win_compat.c
+  zc_arraylist.c
+  正在編譯...
+  zc_hashtable.c
+  zc_profile.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(40,2): warning C4013: 'localtime_r' 未定義; 假設 extern 傳回整數
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(63,15): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(64,15): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(73,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(80,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_profile.c(87,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  zc_util.c
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(104,12): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(127,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(151,31): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(121,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(132,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(144,19): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  zlog.c
+     正在建立程式庫 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.lib 和物件 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.exp
 LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
   正在產生程式碼
   Previous IPDB not found, fall back to full compilation.
@@ -9,6 +157,7 @@ unixem.lib(glob.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，�
 unixem.lib(unistd.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
 unixem.lib(util.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
   zlog.vcxproj -> C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\x64\Release\zlog.dll
+          1 file(s) copied.
           1 file(s) copied.
           1 file(s) copied.
           1 file(s) copied.

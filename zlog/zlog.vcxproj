@@ -180,6 +180,7 @@ copy $(OutDir)$(TargetName)$(TargetExt) $(SolutionDir)\bin</Command>
     <PostBuildEvent>
       <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(SolutionDir)\..\Release\bin\x64
 copy $(OutDir)$(TargetName).lib $(SolutionDir)\..\Release\lib\x64
+copy $(OutDir)$(TargetName).pdb $(SolutionDir)\..\debug_symbol
 copy $(OutDir)$(TargetName)$(TargetExt) $(SolutionDir)\bin\x64</Command>
     </PostBuildEvent>
     <ResourceCompile>
