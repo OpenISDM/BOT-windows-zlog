@@ -1,8 +1,8 @@
 ﻿  buf.c
+  category.c
 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(125,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(187,31): warning C4244: '=': 將 'double' 轉換為 'size_t'，由於類型不同，可能導致資料遺失
 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\buf.c(614,17): warning C4018: '>': signed/unsigned 不相符
-  category.c
 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\category.c(143,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   category_table.c
   conf.c
@@ -147,9 +147,9 @@ C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(132,11): 
 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\src\zc_util.c(144,19): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   zlog.c
      正在建立程式庫 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.lib 和物件 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.exp
+  Previous IPDB not found, fall back to full compilation.
 LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
   正在產生程式碼
-  Previous IPDB not found, fall back to full compilation.
   All 218 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成程式碼產生
 unixem.lib(hostname.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
