@@ -13,11 +13,10 @@
 *.ncb
 *.suo
 common/lib/*
-debug_symbol/*
+debug_symbols/*
 Debug/
 x64/
 zlog/.vs/*
-zlog/.vs/zlog/*
 zlog/zlog/x64/Release/*.log
 zlog/bin/x64/zlog.dll
 Release/bin/x64/zlog.dll
