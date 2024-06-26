@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\zlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9AA99D3-0C56-440F-953F-795E5459829D}|zlog.vcxproj|C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\zlog\\zlog.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9AA99D3-0C56-440F-953F-795E5459829D}|zlog.vcxproj|solutionrelative:zlog.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9AA99D3-0C56-440F-953F-795E5459829D}|zlog.vcxproj|C:\\USERS\\OPENISDM\\DOCUMENTS\\GITHUB\\BOT-WINDOWS-ZLOG\\EXTLIB\\PRE-BUILT.2\\INCLUDE\\PTHREAD.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zlog.rc",
+              "DocumentMoniker": "C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\zlog\\zlog.rc",
+              "RelativeDocumentMoniker": "zlog.rc",
+              "ToolTip": "C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\zlog\\zlog.rc",
+              "RelativeToolTip": "zlog.rc",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-26T07:49:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pthread.h",
+              "DocumentMoniker": "C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\extlib\\Pre-built.2\\include\\pthread.h",
+              "RelativeDocumentMoniker": "..\\extlib\\Pre-built.2\\include\\pthread.h",
+              "ToolTip": "C:\\Users\\openISDM\\Documents\\GitHub\\BOT-windows-zlog\\extlib\\Pre-built.2\\include\\pthread.h",
+              "RelativeToolTip": "..\\extlib\\Pre-built.2\\include\\pthread.h",
+              "ViewState": "AQIAAC4BAAAAAAAAAADgv0MBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T07:48:58.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

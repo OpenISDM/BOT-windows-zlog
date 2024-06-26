@@ -1,0 +1,14 @@
+﻿     正在建立程式庫 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.lib 和物件 C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\\x64\Release\zlog.exp
+LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+  All 218 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+unixem.lib(hostname.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+unixem.lib(glob.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+unixem.lib(unistd.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+unixem.lib(util.obj) : warning LNK4204: '' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+  zlog.vcxproj -> C:\Users\openISDM\Documents\GitHub\BOT-windows-zlog\zlog\x64\Release\zlog.dll
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
